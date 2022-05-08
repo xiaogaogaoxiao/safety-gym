@@ -18,10 +18,10 @@ Requires **Python 3.6 or greater.**
 
 Safety Gym depends heavily on [mujoco_py](https://github.com/openai/mujoco-py), so the first step of installing Safety Gym is installing MuJoCo. See the mujoco_py documentation for details. Note that mujoco_py **requires Python 3.6 or greater**, so Safety Gym does as well.
 
-Afterwards, simply install Safety Gym by:
+Afterwards, simply install Safety Gym by:(注意：我们修改了mujoco_py的版本到.8，因为.7的报错）
 
 ```
-git clone https://github.com/openai/safety-gym.git
+git clone https://github.com/xiaogaogaoxiao/safety-gym.git
 
 cd safety-gym
 
